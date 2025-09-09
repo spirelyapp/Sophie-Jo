@@ -9,7 +9,7 @@ export default async function HomePage() {
   return (
     <MdxLayout>
       <div className="prose prose-zinc max-w-none">
-        <h1>HEY, I'M DRIS<span className="animate-caret-blink">.</span></h1>
+        <h1>HEY, I'M NOAH<span className="animate-caret-blink">.</span></h1>
         
         <p>i'm {calculateAge()}, from <a href="https://www.exploreminnesota.com/media/facts-figures">minnesota</a>.</p>
         

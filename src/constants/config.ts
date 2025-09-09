@@ -1,6 +1,6 @@
 const config = {
-  SITE_NAME: "DRIS ELAMRI",
-  SITE_DESCRIPTION: "dris elamri. 17y/o entrepreneur, developer, designer, & creator from minnesota.",
+  SITE_NAME: "NOAH",
+  SITE_DESCRIPTION: "noah. 17y/o entrepreneur, developer, designer, & creator from minnesota.",
   MAIN_BRANCH: "main",
   SITE_URL: "https://dris.one",
   HEADER: {
