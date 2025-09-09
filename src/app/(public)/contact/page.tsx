@@ -1,11 +1,27 @@
 import { Metadata } from "next";
-import Contact from "./contact.mdx";
+import MdxLayout from "@/components/mdx-layout";
+import Form from "./form";
 
 export const metadata: Metadata = {
   title: "CONTACT",
-  description: "contact me @ elamri [at] dris [dot] llc",
+  description: "contact me @ noah [at] spirelyapp [dot] com",
 };
 
 export default function ContactPage() {
-  return <Contact />;
+  return (
+    <MdxLayout>
+      <div className="prose prose-zinc max-w-none">
+        <h2>CONTACT</h2>
+        
+        <p>i read every message - always open to collaborating or helping out.</p>
+        
+        <Form />
+        
+        <h4>OR EMAIL AT:</h4>
+        <ul>
+          <li>noah [at] spirelyapp [dot] com</li>
+        </ul>
+      </div>
+    </MdxLayout>
+  );
 }

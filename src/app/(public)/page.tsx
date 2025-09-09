@@ -11,40 +11,36 @@ export default async function HomePage() {
       <div className="prose prose-zinc max-w-none">
         <h1>HEY, I'M NOAH<span className="animate-caret-blink">.</span></h1>
         
-        <p>i'm {calculateAge()}, from <a href="https://www.exploreminnesota.com/media/facts-figures">minnesota</a>.</p>
+        <p>i'm 18, from minnesota.</p>
         
-        <p>i've been building things for {calculateDays().toLocaleString()} days.</p>
+        <p>i've been building things for 1,095 days.</p>
         
         <h4>A FEW ACHIEVEMENTS:</h4>
         <ul>
-          <li>yt channel with 200k subscribers and 160m views</li>
-          <li>$50k/month <a href="https://web.archive.org/web/20230110214901/https://www.headfoams.pro/">ecom store</a> selling fake airpod maxes</li>
-          <li>won the congressional app challenge at <a href="https://www.congressionalappchallenge.us/2018-mn3/">10</a></li>
-          <li>hacked a $100m organization (rhymes with <a href="https://www.deca.org/">deca</a>)</li>
-          <li>sold <a href="https://lira.study">an app</a> for below minimum wage</li>
+          <li>founded a home service business and scaled to over $10k MRR</li>
+          <li>created multiple apps in the iOS app store</li>
+          <li>taught myself how to code at age 17</li>
         </ul>
         
         <h4>SOME PROJECTS I'M WORKING ON:</h4>
         <ul>
-          <li><a href="https://cluely.com">cluely.com</a> - making videos</li>
-          <li><a href="https://chopped.vc">chopped.vc</a> - investing in chopped founders</li>
-          <li><a href="https://callwalker.net">callwalker.net</a> - college connection agent</li>
-          <li><a href="https://ui.dris.one">ui.dris.one</a> - 2000s inspired component library</li>
+          <li><a href="https://homeharmony.biz">homeharmony.biz</a> - flipping the script on the blue collar industry</li>
+          <li><a href="https://hireu.online">hireu.online</a> - disrupting the hiring industry</li>
+          <li><a href="https://promptrapp.online">promptrapp.online</a> - how to use ai</li>
         </ul>
         
         <p>i start lots of projects and finish very few. i don't believe in sunk cost. this list will probably be pretty different next time you see it.</p>
         
         <h4>TL;DR:</h4>
-        <p>i started selling toys in 1st grade.</p>
-        <p>i've had nearly every side hustle since. making clothes, selling snacks, designing logos, & editing videos are a few.</p>
-        <p>i'm a fan of the process. i love turning basic ideas into something great.</p>
+        <p>i turned my life around when i was 16.</p>
+        <p>i realized that nobody is coming to save me and i started thinking of ways that i could become successful, and i started my own home service business.</p>
+        <p>i love creating things, and i love turning ideas into reality.</p>
         
         <Snippet title="HOW I STARTED">
-          <p>i taught myself to code summer of 6th grade.</p>
-          <p>i "launched" my first app, lemonayd (<a href="https://www.lemonaid.com/">lemonaid</a> was taken) later that year.</p>
-          <p>it was a fundraising app for schools. i became one of the youngest winners of the <a href="https://www.congressionalappchallenge.us/">congressional app challenge</a> from my submission.</p>
-          <p>i recently got into startups (mid-2023) after watching <a href="https://www.youtube.com/watch?v=4VDZRR07Eqw">this video</a>.</p>
-          <p>one of my earliest ambitions was to "invent" something. the idea of creating things that other people could use seemed pretty interesting.</p>
+          <p>when i was 16, i started my first business.</p>
+          <p>it was a home service business focused on bringing dignity and passion back into the service industry.</p>
+          <p>i recently got into startups (early 2025) after watching this video.</p>
+          <p>i remember telling my family when i was young, that i was going to become a millionaire.</p>
           <p>i always knew this is what i wanted to do.</p>
         </Snippet>
         
@@ -56,41 +52,36 @@ export default async function HomePage() {
         </Snippet>
         
         <Snippet title="MY MOTIVATIONS">
-          <p>i've never really been driven by money. i read this on a fortune cookie from panda express a few years back. something like "money is a means to an end, not the end itself".</p>
-          <p>for now, i do it for the love of the game. i'm always trying to be the best i can in everything i do.</p>
-          <p>i've been fortunate enough to never have to worry about food, money, housing, or education. so maybe this changes in the future. but i wasn't after fancy cars or nice watches like most people around my age.</p>
-          <p>i think this mindset is becoming more common, but i'd like to get to a point where i can live without having to worry about money.</p>
-          <p>no mansion or private jet. i'd just keep it simple.</p>
+          <p>i would be lying if i said "i've never really been driven by money". i believe that money buys freedom and anyone would be objectively happier with financial freedom.</p>
+          <p>i've never really been drawn to materialistic items, sure i might indulge in a nice watch or a nice car when the time is right, but that is not what fuels me to do the work that i do.</p>
+          <p>for now, i do it for the love of the game. i am always chasing the best version of myself.</p>
+          <p>i think the most valuable thing in life is a community that loves you.</p>
+          <p>no mansion or private jet. i'd just like to keep it simple.</p>
         </Snippet>
         
-        <Snippet title={`WHERE I SEE MYSELF IN ${tenYears().toLocaleString()} DAYS`}>
-          <p>in 10 years, running a company or in vc.</p>
-          <p>i move around a lot, so not sure if i'd get the most value sticking to 1 thing for many years. i enjoy creating & selling.</p>
-          <p>maybe not going to college, so can't say for sure where i end up.</p>
-          <p>i've been hustling my whole life. im sure i'll figure something out.</p>
+        <Snippet title="WHERE I SEE MYSELF IN 3,501 DAYS">
+          <p>in 10 years, running a company with my best friends.</p>
+          <p>i like always be moving forward and pivoting towards new and exciting things, so i'm not sure if i'd get the most value from sticking to 1 thing for 20 plus years. i enjoy building & selling.</p>
+          <p>might not go to college, so i can't say for sure where i will end up.</p>
+          <p>i've been working hard all my life. im sure i'll figure something out.</p>
         </Snippet>
         
-        <h4>MY PREVIOUS VENTURES:</h4>
+        <h4>MY VENTURES:</h4>
         <ul>
-          <li>(25) <a href="https://formscale.dev">formscale.dev</a> - open-source form backend</li>
-          <li>(24) <a href="https://lira.study">lira.study</a> - ai study tool (acquired)</li>
-          <li>(24) <a href="https://parkt.app">parkt.app</a> - parking marketplace app</li>
-          <li>(22-) <a href="https://dris.llc">dris.llc</a> - marketing & brand dev</li>
-          <li>(23-25) <a href="https://sparkhs.org">sparkhs.org</a> - hs business competition</li>
-          <li>(18-19) <a href="https://app.thelemonayd.com">thelemonayd.com</a> - school fundraising app</li>
+          <li><a href="https://noahjohnson.mp4">noahjohnson.mp4</a> - building my personal brand</li>
+          <li><a href="https://homeharmony.biz">homeharmony.biz</a> - home service business</li>
+          <li><a href="https://promptrapp.online">promptrapp.online</a> - how to use ai</li>
+          <li><a href="https://spirelyapp.com">spirelyapp.com</a> - become your best self</li>
+          <li><a href="https://hireu.online">hireu.online</a> - hire top talent based off of real skills</li>
         </ul>
         
         <h4>SOME PROJECTS I'VE WORKED ON:</h4>
         <ul>
-          <li>(25) <a href="https://instinct.so">instinct.so</a> - creative company</li>
-          <li>(25) <a href="https://benarata.me">benarata.me</a> - site for ben</li>
-          <li>(25) <a href="https://usestep.ai">usestep.ai</a> - ai simulation platform</li>
-          <li>(24) <a href="https://quarter.nyc">quarter.nyc</a> - made the logo</li>
-          <li>(24) <a href="https://collegerejections.com">collegerejections.com</a> - post college rejections</li>
-          <li>(24) <a href="https://internetgradient.com">internetgradient.com</a> - multiplayer gradient</li>
-          <li>(23) <a href="https://www.youtube.com/watch?v=RwtzAntnTRA">ai.sparkhs.org</a> - web-based ai code editor</li>
-          <li>(23) <a href="https://nearcams.org">nearcams.org</a> - traffic cams in mn</li>
-          <li>(17) <a href="https://thunderdynamics.biz">thunderdynamics.biz</a> - first "company" - sold speakers</li>
+          <li><a href="https://blackstonehs.com">blackstonehs.com</a> - home service business</li>
+          <li><a href="https://chipspbclub.com">chipspbclub.com</a> - pickleball club in mn</li>
+          <li><a href="https://cratr.app">cratr.app</a> - dating app</li>
+          <li><a href="https://surely.ai">surely.ai</a> - failed ai assistant</li>
+          <li>and many more</li>
         </ul>
         
         <h4>DIRECTORY:</h4>
