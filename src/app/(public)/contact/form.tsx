@@ -56,7 +56,7 @@ export default function Form() {
     <ComponentContainer>
       <form className="flex flex-col gap-2 w-full max-w-sm" onSubmit={handleSubmit}>
         <Label htmlFor="email">email*</Label>
-        <Input id="email" name="email" type="email" variant="minimal" placeholder="noah@spirelyapp.com" required />
+        <Input id="email" name="email" type="email" variant="minimal" placeholder="jamesbond@gmail.com" required />
         <Label htmlFor="message">message*</Label>
         <Textarea
           id="message"

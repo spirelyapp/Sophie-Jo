@@ -7,6 +7,7 @@ const config = {
     contact: "/contact",
     linkedin: "https://www.linkedin.com/in/noahjohnsonfounder/",
     twitter: "https://x.com/noahtjohns",
+    instagram: "https://www.instagram.com/noahjohnsonbjj/",
   },
 } as const;
 

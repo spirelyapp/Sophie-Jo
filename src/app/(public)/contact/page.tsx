@@ -4,7 +4,7 @@ import Form from "./form";
 
 export const metadata: Metadata = {
   title: "CONTACT",
-  description: "contact me @ noah [at] spirelyapp [dot] com",
+  description: "contact me @ noah [at] noahjbusiness [dot] com",
 };
 
 export default function ContactPage() {
@@ -19,7 +19,7 @@ export default function ContactPage() {
         
         <h4>OR EMAIL AT:</h4>
         <ul>
-          <li>noah [at] spirelyapp [dot] com</li>
+          <li>noah [at] noahjbusiness [dot] com</li>
         </ul>
       </div>
     </MdxLayout>
