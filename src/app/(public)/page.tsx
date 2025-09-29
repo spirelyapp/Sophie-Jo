@@ -20,6 +20,7 @@ export default async function HomePage() {
           <li>founded a home service business and scaled to over $10k MRR</li>
           <li>created multiple apps in the iOS app store</li>
           <li>taught myself how to code at age 17</li>
+          <li>brazilian jiu jitsu blue belt</li>
         </ul>
         
         <h4>SOME PROJECTS I'M WORKING ON:</h4>
@@ -45,7 +46,7 @@ export default async function HomePage() {
         </Snippet>
         
         <Snippet title="MY GOAL">
-          <p>creating a product so seamless you never notice it. something like a coffee cup, chair, street light, etc.</p>
+          <p>creating a product so seamless you never notice it. something like a software, coffee cup, street light, etc.</p>
           <p>something that provides value & is used so frequently it becomes a part of your life without questioning it.</p>
           <p><a href="https://en.wikipedia.org/wiki/Dieter_Rams">dieter rams</a> said "the best design is invisible". i always think about that.</p>
           <p>probably something in tech/science.</p>
@@ -61,7 +62,7 @@ export default async function HomePage() {
         
         <Snippet title="WHERE I SEE MYSELF IN 3,501 DAYS">
           <p>in 10 years, running a company with my best friends.</p>
-          <p>i like always be moving forward and pivoting towards new and exciting things, so i'm not sure if i'd get the most value from sticking to 1 thing for 20 plus years. i enjoy building & selling.</p>
+          <p>i like to always be moving forward and pivoting towards new and exciting things, so i'm not sure if i'd get the most value from sticking to 1 thing for 20 plus years. i enjoy building & selling.</p>
           <p>might not go to college, so i can't say for sure where i will end up.</p>
           <p>i've been working hard all my life. im sure i'll figure something out.</p>
         </Snippet>
@@ -88,8 +89,6 @@ export default async function HomePage() {
         <ul>
           <li><a href="/contact">contact</a></li>
           <li><a href="/resources">resources</a></li>
-          <li><a href="/gallery">gallery</a></li>
-          <li><a href="/radio">radio</a></li>
         </ul>
       </div>
     </MdxLayout>
