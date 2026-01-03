@@ -55,15 +55,16 @@ export default async function HomePage() {
         
         <Snippet title="MY RULES">
           <ul>
-            <li>Follow God's plan above my own</li>
-            <li>Live in the moment</li>
-            <li>Do not work with someone for a day, that you could not see yourself working with for life</li>
-            <li>I will always read daily</li>
-            <li>Honesty is the best policy</li>
-            <li>I value my time at $500/hour</li>
-            <li>Always follow your passion</li>
-            <li>Act in love, never in hate- you cannot fight fire with fire</li>
-            <li>sunk cost is a complete fallacy</li>
+            <li>Follow God's plan above my own.</li>
+            <li>Live in the moment.</li>
+            <li>Never work with someone for a day if I couldn't work with them for life.</li>
+            <li>Read every day. No exceptions.</li>
+            <li>Honesty is the best policy, always.</li>
+            <li>Value my time at $500 per hour.</li>
+            <li>Always follow my passion.</li>
+            <li>Act in love, never in hate. You cannot fight fire with fire.</li>
+            <li>Sunk cost is a complete fallacy, decisions are made on future value, not past effort.</li>
+            <li>If it matters to me, I go after it.</li>
           </ul>
         </Snippet>
         
