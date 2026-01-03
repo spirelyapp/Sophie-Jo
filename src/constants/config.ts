@@ -6,8 +6,7 @@ const config = {
   HEADER: {
     contact: "/contact",
     linkedin: "https://www.linkedin.com/in/noahjohnsonfounder/",
-    twitter: "https://x.com/noahtjohns",
-    instagram: "https://www.instagram.com/noahjohnsonbjj/",
+    instagram: "https://www.instagram.com/noahjohnson.ig/",
   },
 } as const;
 
