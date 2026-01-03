@@ -52,3 +52,5 @@ worker-configuration.d.ts
 
 # super secret
 src/app/(secret)
+.env*.local
+package-lock.json
