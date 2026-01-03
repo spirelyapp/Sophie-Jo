@@ -1,8 +1,9 @@
-import { setupDevPlatform } from "@cloudflare/next-on-pages/next-dev";
+// Cloudflare setup commented out for Vercel compatibility
+// Uncomment when deploying to Cloudflare Pages:
+// import { setupDevPlatform } from "@cloudflare/next-on-pages/next-dev";
+// setupDevPlatform().catch(console.error);
+
 import createMDX from "@next/mdx";
-
-setupDevPlatform().catch(console.error);
-
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
