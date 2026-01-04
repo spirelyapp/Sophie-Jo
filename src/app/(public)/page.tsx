@@ -21,6 +21,7 @@ export default async function HomePage() {
           <li>coded multiple computer and iphone applications</li>
           <li>started a podcast with my good friend Ben</li>
           <li>brazilian jiu jitsu blue belt</li>
+          <li>i have never drank alcohol or indulged in any intoxicating or recreational substances</li>
         </ul>
         
         <h4>SOME PROJECTS I'M WORKING ON:</h4>
