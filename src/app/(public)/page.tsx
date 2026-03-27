@@ -13,7 +13,7 @@ export default async function HomePage() {
         
         <p>i'm 18, from minnesota.</p>
         
-        <p>I will be worth $52 million in 4,231 days.</p>
+        <p>I will be worth $52 million in 1,831 days.</p>
         
         <h4>A FEW ACHIEVEMENTS:</h4>
         <ul>
