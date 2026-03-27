@@ -13,7 +13,7 @@ export default async function HomePage() {
         
         <p>i'm 18, from minnesota.</p>
         
-        <p>I will be worth $52 Million in 4,745 days.</p>
+        <p>I will be worth $52 million in 4,231 days.</p>
         
         <h4>A FEW ACHIEVEMENTS:</h4>
         <ul>
@@ -26,6 +26,7 @@ export default async function HomePage() {
         
         <h4>SOME PROJECTS I'M WORKING ON:</h4>
         <ul>
+          <li><a href="https://www.getlearnix.com">Learnix</a> - the first AI native university</li>
           <li><a href="https://homeharmony.biz">homeharmony.biz</a> - flipping the script on the blue collar industry</li>
           <li><a href="https://open.spotify.com/show/69fQMWbS0cqAaWcjKRqKar?si=883e851593624570">The Winners Effect</a> - Sharing my ideas through my podcast</li>
           <li><a href="https://promptrapp.online">promptrapp.online</a> - how to use ai</li>
