@@ -24,14 +24,10 @@ export default async function HomePage() {
           <li>i have never drank alcohol or indulged in any intoxicating or recreational substances</li>
         </ul>
         
-        <h4>SOME PROJECTS I'M WORKING ON:</h4>
+        <h4>WHAT I'M CURRENTLY WORKING ON:</h4>
         <ul>
           <li><a href="https://www.getlearnix.com">Learnix</a> - the first AI native university</li>
           <li><a href="https://homeharmony.biz">homeharmony.biz</a> - flipping the script on the blue collar industry</li>
-          <li><a href="https://open.spotify.com/show/69fQMWbS0cqAaWcjKRqKar?si=883e851593624570">The Winners Effect</a> - Sharing my ideas through my podcast</li>
-          <li><a href="https://promptrapp.online">promptrapp.online</a> - how to use ai</li>
-          <li><a href="#">Birds</a> - Jordan Belfort meets rock climbing</li>
-          <li><a href="https://chipspbclub.com">CJ's Pickleball Club</a> - local pickleball tournament</li>
         </ul>
         
         <p>I'm always starting new projects, and I work to achieve a balance between committing long enough to execute well and knowing when to walk away without falling into sunk cost thinking.</p>
@@ -85,6 +81,8 @@ export default async function HomePage() {
           <li><a href="https://spirelyapp.com">spirelyapp.com</a> - become your best self</li>
           <li><a href="https://hireu.online">hireu.online</a> - hire top talent based off of real skills</li>
           <li><a href="https://open.spotify.com/show/69fQMWbS0cqAaWcjKRqKar?si=433976173b2240ba">The Winners Effect</a> - Sharing my ideas through my podcast</li>
+          <li><a href="#">Birds</a> - Jordan Belfort meets rock climbing</li>
+          <li><a href="https://chipspbclub.com">CJ's Pickleball Club</a> - local pickleball tournament</li>
         </ul>
         
         <h4>SOME PROJECTS I'VE WORKED ON:</h4>
