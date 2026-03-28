@@ -19,8 +19,8 @@ function DefaultButton({
     <Button
       variant="ghost"
       className={cn(
-        "p-0 rounded-none hover:text-gray-600 text-xs h-auto cursor-pointer font-mono hover:underline",
-        absolute && "absolute top-2.5 right-3 underline"
+        "p-0 rounded-none text-custom text-xs h-auto cursor-pointer font-mono underline underline-offset-2 hover:bg-transparent hover:text-custom dark:hover:bg-transparent dark:hover:text-custom",
+        absolute && "absolute top-2.5 right-3"
       )}
       onClick={onClick}
       disabled={disabled}
