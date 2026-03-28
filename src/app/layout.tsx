@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 
 import config from "../constants/config";
@@ -57,7 +58,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${inter.variable} ${jetBrainsMono.variable} antialiased`}>
-      <body className="font-inter bg-background text-foreground relative w-full min-h-screen">{children}</body>
+      <body className="font-inter bg-background text-foreground relative w-full min-h-screen">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
