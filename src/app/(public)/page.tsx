@@ -11,7 +11,7 @@ export default async function HomePage() {
       <div className="prose prose-zinc max-w-none">
         <h1>HEY, I'M NOAH<span className="animate-caret-blink">.</span></h1>
         
-        <p>i'm 18, from minnesota.</p>
+        <p>I'm 18, from minnesota.</p>
         
         <p>I will be worth $52 million in 1,831 days.</p>
         
