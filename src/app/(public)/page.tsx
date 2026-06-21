@@ -27,7 +27,7 @@ export default async function HomePage() {
         <h4>WHAT I'M CURRENTLY WORKING ON:</h4>
         <ul>
           <li><a href="https://www.getlearnix.com">Learnix</a> - the first AI native university</li>
-          <li><a href="https://homeharmony.biz">homeharmony.biz</a> - flipping the script on the blue collar industry</li>
+          <li><a href="https://birds.homes">birds.homes</a> - flipping the script on the blue collar industry</li>
         </ul>
         
         <p>I'm always starting new projects, and I work to achieve a balance between committing long enough to execute well and knowing when to walk away without falling into sunk cost thinking.</p>
@@ -76,7 +76,7 @@ export default async function HomePage() {
         <h4>MY VENTURES:</h4>
         <ul>
           <li><a href="https://noahjohnson.mp4">noahjohnson.mp4</a> - building my personal brand</li>
-          <li><a href="https://homeharmony.biz">homeharmony.biz</a> - home service business</li>
+          <li><a href="https://birds.homes">birds.homes</a> - home service business</li>
           <li><a href="https://promptrapp.online">promptrapp.online</a> - how to use ai</li>
           <li><a href="https://spirelyapp.com">spirelyapp.com</a> - become your best self</li>
           <li><a href="https://hireu.online">hireu.online</a> - hire top talent based off of real skills</li>
