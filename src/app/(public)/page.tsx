@@ -31,17 +31,7 @@ export default async function HomePage() {
         </ul>
         
         <p>I'm always starting new projects, and I work to achieve a balance between committing long enough to execute well and knowing when to walk away without falling into sunk cost thinking.</p>
-        
-        <h4>TL;DR:</h4>
-        <p>At 16, I made a fundamental shift in how I approached my life after realizing that no one was coming to save me. That mindset led me to start my own home service business and created a lasting passion for building and bringing ideas to life.</p>
-        
-        <Snippet title="HOW I STARTED">
-          <p>when i was 16, I realized that traditional education is not for me.</p>
-          <p>this naturally lead me to starting my first business</p>
-          <p>it was a home service business focused on bringing dignity and passion back into the service industry.</p>
-          <p>starting Home Harmony has helped me learn more than I have ever learned in the public education system.</p>
-        </Snippet>
-        
+
         <Snippet title="MY ENDGAME">
           <ul>
             <li>a wonderful relationship with my wife and children</li>
