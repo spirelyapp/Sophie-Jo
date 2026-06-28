@@ -17,10 +17,11 @@ export default async function HomePage() {
         
         <h4>A FEW ACHIEVEMENTS:</h4>
         <ul>
-          <li>founded a home service business and scaled to over $10k MRR</li>
+          <li>founded a home service business</li>
           <li>coded multiple computer and iphone applications</li>
           <li>started a podcast with my good friend Ben</li>
           <li>brazilian jiu jitsu blue belt</li>
+          <li>i can do a backflip</li>
           <li>i have never drank alcohol or indulged in any intoxicating or recreational substances</li>
         </ul>
         
