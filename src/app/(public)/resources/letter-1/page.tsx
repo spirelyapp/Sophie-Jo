@@ -21,6 +21,12 @@ export default function Letter1Page() {
           We only met for the first time 2 months ago, and yet I feel like we
           have known each other forever.
         </p>
+
+        <p>
+          With love,
+          <br />
+          Noah
+        </p>
       </div>
     </MdxLayout>
   );
