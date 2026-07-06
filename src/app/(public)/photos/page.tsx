@@ -12,7 +12,7 @@ const photos = [
     src: "/photos/1.jpg",
     alt: "noah and sophie jo, 5/9/2026",
     title: "First meeting.",
-    date: "5/9/2026",
+    date: "May 9th 2026",
   },
 ];
 
