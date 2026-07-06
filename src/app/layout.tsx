@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     template: "%s | " + config.SITE_NAME,
   },
   icons: {
-    icon: "/assets/favicon.ico",
+    icon: "/assets/heart.svg",
   },
   description: config.SITE_DESCRIPTION,
   keywords: ["dris", "ui", "component", "library"],
