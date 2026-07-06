@@ -5,8 +5,7 @@ const config = {
   SITE_URL: "https://dris.one",
   HEADER: {
     contact: "/contact",
-    linkedin: "https://www.linkedin.com/in/noahjohnsonfounder/",
-    instagram: "https://www.instagram.com/noahjohnson.ig/",
+    letters: "/resources",
   },
 } as const;
 

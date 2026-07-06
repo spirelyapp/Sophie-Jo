@@ -2,8 +2,8 @@ import { Metadata } from "next";
 import Resources from "./resources.mdx";
 
 export const metadata: Metadata = {
-  title: "RESOURCES",
-  description: "links i've found interesting, helpful, inspiring, or cool (chrome bookmarks).",
+  title: "LETTERS",
+  description: "every letter i've written to sophie jo.",
 };
 
 export default function ResourcesPage() {
