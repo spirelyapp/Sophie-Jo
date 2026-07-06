@@ -6,6 +6,7 @@ const config = {
   HEADER: {
     contact: "/contact",
     letters: "/resources",
+    photos: "/photos",
   },
 } as const;
 
