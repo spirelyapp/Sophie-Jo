@@ -13,7 +13,7 @@ export default function ContactPage() {
       <div className="prose prose-zinc max-w-none">
         <h2>CONTACT</h2>
         
-        <p>i read every message - always open to collaborating or helping out.</p>
+        <p>i enjoy reading emails, so please holla at your boy.</p>
         
         <Form />
         
