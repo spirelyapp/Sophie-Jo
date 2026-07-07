@@ -1,5 +1,6 @@
 import MdxLayout from "@/components/mdx-layout";
 import { Metadata } from "next";
+import Image from "next/image";
 
 export const metadata: Metadata = {
   title: "LETTER 1",
@@ -76,6 +77,20 @@ export default function Letter1Page() {
           <br />
           Noah
         </p>
+
+        <figure className="not-prose my-8">
+          <Image
+            src="/photos/name-question.jpg"
+            alt="sophie jo, right after being asked her name"
+            width={1200}
+            height={1600}
+            className="h-auto w-full max-w-sm rounded-md"
+            sizes="(min-width: 640px) 384px, 100vw"
+          />
+          <figcaption className="mt-2 max-w-sm font-mono text-xs text-gray-500">
+            the face you made right after I asked you what your name was
+          </figcaption>
+        </figure>
       </div>
     </MdxLayout>
   );
