@@ -73,6 +73,9 @@ export default async function HomePage() {
         </p>
 
         <figure className="not-prose my-8">
+          <figcaption className="mb-2 max-w-48 font-mono text-xs text-gray-500">
+            the face you made right after I asked you what your name was
+          </figcaption>
           <Image
             src="/photos/name-question.jpg"
             alt="sophie jo, right after being asked her name"
@@ -81,9 +84,6 @@ export default async function HomePage() {
             className="h-auto w-full max-w-48 rounded-md"
             sizes="(min-width: 640px) 192px, 50vw"
           />
-          <figcaption className="mt-2 max-w-48 font-mono text-xs text-gray-500">
-            the face you made right after I asked you what your name was
-          </figcaption>
         </figure>
       </div>
     </MdxLayout>
