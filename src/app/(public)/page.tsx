@@ -72,6 +72,14 @@ export default async function HomePage() {
           Noah
         </p>
 
+        <p>
+          P.S. Sorry, this is not really my best work. And yeah, I know the
+          list is kind of random. But it&apos;s the thought that counts,
+          right? You are so awesome, Sophie Jo! {"<3"}
+        </p>
+
+        <p>Also I found this&hellip;</p>
+
         <figure className="not-prose my-8">
           <figcaption className="mb-2 max-w-48 font-mono text-xs text-gray-500">
             the face you made right after I asked you what your name was
