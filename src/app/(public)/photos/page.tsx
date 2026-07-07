@@ -7,11 +7,23 @@ export const metadata: Metadata = {
   description: "photos of me and sophie jo.",
 };
 
-const photos = [
+const photos: { src: string; alt: string; title: string; date?: string }[] = [
   {
     src: "/photos/1.jpg",
     alt: "noah and sophie jo, 5/9/2026",
     title: "First meeting.",
+    date: "May 9th 2026",
+  },
+  {
+    src: "/photos/2.jpg",
+    alt: "flowers that remind me of sophie jo",
+    title: "flowers that remind me of you.",
+    date: "June 6th 2026",
+  },
+  {
+    src: "/photos/name-question.jpg",
+    alt: "sophie jo, right after being asked her name",
+    title: "Immediately after I asked you what your name was.",
     date: "May 9th 2026",
   },
 ];
@@ -34,7 +46,8 @@ export default function PhotosPage() {
                 sizes="(min-width: 640px) 640px, 100vw"
               />
               <figcaption className="mt-2 font-mono text-xs text-gray-500">
-                <span className="text-gray-800">{photo.title}</span> {photo.date}
+                <span className="text-gray-800">{photo.title}</span>
+                {photo.date ? ` ${photo.date}` : ""}
               </figcaption>
             </figure>
           ))}
