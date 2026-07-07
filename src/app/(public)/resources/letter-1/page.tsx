@@ -84,10 +84,10 @@ export default function Letter1Page() {
             alt="sophie jo, right after being asked her name"
             width={1200}
             height={1600}
-            className="h-auto w-full max-w-sm rounded-md"
-            sizes="(min-width: 640px) 384px, 100vw"
+            className="h-auto w-full max-w-48 rounded-md"
+            sizes="(min-width: 640px) 192px, 50vw"
           />
-          <figcaption className="mt-2 max-w-sm font-mono text-xs text-gray-500">
+          <figcaption className="mt-2 max-w-48 font-mono text-xs text-gray-500">
             the face you made right after I asked you what your name was
           </figcaption>
         </figure>
