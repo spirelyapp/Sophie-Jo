@@ -75,7 +75,10 @@ export default async function HomePage() {
         <p>
           P.S. Sorry, this is not really my best work. And yeah, I know the
           list is kind of random. But it&apos;s the thought that counts,
-          right? You are so awesome, Sophie Jo! {"<3"}
+          right? Also, I know that I tell you all the time about how good
+          looking you are, and you are truly beautiful, but your looks
+          don&apos;t even compare to your personality, just thought you should
+          know that. You are so awesome, Sophie Jo! {"<3"}
         </p>
 
         <p>Also I found this&hellip;</p>
