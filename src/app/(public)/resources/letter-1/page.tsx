@@ -1,4 +1,5 @@
 import MdxLayout from "@/components/mdx-layout";
+import OutroSong from "@/components/outro-song";
 import { Metadata } from "next";
 import Image from "next/image";
 
@@ -102,6 +103,11 @@ export default function Letter1Page() {
             sizes="(min-width: 640px) 192px, 50vw"
           />
         </figure>
+
+        <h4>OUTRO SONG</h4>
+        <div className="not-prose">
+          <OutroSong />
+        </div>
       </div>
     </MdxLayout>
   );
