@@ -24,8 +24,8 @@ export default async function HomePage() {
         </p>
 
         <p>
-          I know we only met for the first time 2 months ago, and yet I feel
-          like we have known each other much much longer. You&apos;re probably
+          I know we only met for the first time 2 months ago, but I feel like
+          we have known each other much much longer. You&apos;re probably
           the only person in the world that can never fail to make me smile
           without saying a word.
         </p>
