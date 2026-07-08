@@ -67,9 +67,9 @@ export default function Letter1Page() {
           </li>
           <li>July 4th &ndash; 2nd hangout.</li>
           <li>
-            Sometime soon &ndash; 3rd hangout, first date, first time giving
-            you flowers, first kiss, maybe first time playing pickleball
-            together.
+            Sometime soon &ndash; 3rd hangout, first &quot;date&quot;, first
+            time giving you flowers, first kiss, maybe first time playing
+            pickleball together.
           </li>
         </ul>
 
