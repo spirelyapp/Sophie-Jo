@@ -45,21 +45,21 @@ export default function Letter1Page() {
         </p>
 
         <ul>
-          <li>1:11 pm Sun, May 9th &ndash; first time seeing you.</li>
+          <li>1:11 PM Sun, May 9th &ndash; first time seeing you.</li>
           <li>30 minutes later &ndash; first interaction (Bracelet).</li>
           <li>
-            6:15 &ndash; First time really talking to you (walking out of the
-            parking garage, preceding me holding the door open for you on the
-            way out).
+            6:15 PM &ndash; First time really talking to you (walking out of
+            the parking garage, preceding me holding the door open for you on
+            the way out).
           </li>
           <li>
-            6:36 &ndash; I asked you what your name was (I saw you and knew I
-            had to start talking to you as soon as possible, and asking your
+            6:36 PM &ndash; I asked you what your name was (I saw you and knew
+            I had to start talking to you as soon as possible, and asking your
             name was the only thing that came to mind.)
           </li>
-          <li>8:07 &ndash; we danced.</li>
-          <li>10:26 &ndash; our first photo together.</li>
-          <li>11:55 &ndash; our first hug.</li>
+          <li>8:07 PM &ndash; we danced.</li>
+          <li>10:26 PM &ndash; our first photo together.</li>
+          <li>11:55 PM &ndash; our first hug.</li>
           <li>May 10th &ndash; First text.</li>
           <li>May 11th &ndash; First call.</li>
           <li>
