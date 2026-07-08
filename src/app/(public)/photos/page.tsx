@@ -17,7 +17,7 @@ const photos: { src: string; alt: string; title: string; date?: string }[] = [
   {
     src: "/photos/2.jpg",
     alt: "flowers that remind me of sophie jo",
-    title: "flowers that remind me of you.",
+    title: "Flowers that remind me of you.",
     date: "June 6th 2026",
   },
   {
