@@ -32,6 +32,24 @@ const photos: { src: string; alt: string; title: string; date?: string }[] = [
     title: "I love your smile.",
     date: "June 21st 2026",
   },
+  {
+    src: "/photos/4.jpg",
+    alt: "my first text to sophie jo",
+    title: "My first text to you.",
+    date: "May 10th 2026",
+  },
+  {
+    src: "/photos/5.jpg",
+    alt: "asking sophie jo to call",
+    title: "First time asking you to call.",
+    date: "May 11th 2026",
+  },
+  {
+    src: "/photos/6.jpg",
+    alt: "the first flirty instagram reel from sophie jo",
+    title: "The first flirty Instagram reel you sent to me.",
+    date: "May 14th 2026",
+  },
 ];
 
 export default function PhotosPage() {
