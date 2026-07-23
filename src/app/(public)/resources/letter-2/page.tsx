@@ -1,7 +1,13 @@
 import MdxLayout from "@/components/mdx-layout";
 import OutroSong from "@/components/outro-song";
+import { Metadata } from "next";
 
-export default async function HomePage() {
+export const metadata: Metadata = {
+  title: "LETTER 2",
+  description: "letter 2 to sophie jo.",
+};
+
+export default function Letter2Page() {
   return (
     <MdxLayout>
       <div className="prose prose-zinc max-w-none">

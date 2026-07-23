@@ -2,8 +2,8 @@
 
 import { useEffect, useRef } from "react";
 
-const SPOTIFY_TRACK_ID = "4kP69y3GKHi9tXckfgp4bK";
-const START_AT_SECONDS = 12;
+const DEFAULT_TRACK_ID = "4kP69y3GKHi9tXckfgp4bK";
+const DEFAULT_START_AT_SECONDS = 12;
 const SCRIPT_ID = "spotify-iframe-api";
 const SCRIPT_SRC = "https://open.spotify.com/embed/iframe-api/v1";
 
@@ -30,7 +30,15 @@ declare global {
   }
 }
 
-export default function OutroSong() {
+type OutroSongProps = {
+  trackId?: string;
+  startAtSeconds?: number;
+};
+
+export default function OutroSong({
+  trackId = DEFAULT_TRACK_ID,
+  startAtSeconds = DEFAULT_START_AT_SECONDS,
+}: OutroSongProps) {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -42,18 +50,19 @@ export default function OutroSong() {
       IFrameAPI.createController(
         ref.current,
         {
-          uri: `spotify:track:${SPOTIFY_TRACK_ID}`,
+          uri: `spotify:track:${trackId}`,
           width: "100%",
           height: 152,
         },
         (controller) => {
           controller.addListener("playback_update", (e) => {
             if (
+              startAtSeconds > 0 &&
               !seeked &&
               !e.data.isPaused &&
-              e.data.position < START_AT_SECONDS * 1000
+              e.data.position < startAtSeconds * 1000
             ) {
-              controller.seek(START_AT_SECONDS);
+              controller.seek(startAtSeconds);
               seeked = true;
             }
           });
@@ -75,7 +84,7 @@ export default function OutroSong() {
       script.async = true;
       document.body.appendChild(script);
     }
-  }, []);
+  }, [trackId, startAtSeconds]);
 
   return (
     <div className="max-w-md">
