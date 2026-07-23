@@ -14,7 +14,7 @@ export default async function HomePage() {
 
         <h4>OUTRO SONG</h4>
         <div className="not-prose">
-          <OutroSong trackId="2uJ6iDuyoWXtMa0KvebF4C" startAtSeconds={0} />
+          <OutroSong trackId="0myRViRgmQ3J8izICXEAVO" startAtSeconds={0} />
         </div>
       </div>
     </MdxLayout>
