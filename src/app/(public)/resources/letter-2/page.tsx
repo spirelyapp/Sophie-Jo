@@ -20,6 +20,10 @@ export default function Letter2Page() {
         </p>
 
         <h4>OUTRO SONG</h4>
+        <p>
+          Yes, I know this song is popular, but I liked it back when it was
+          niche.
+        </p>
         <div className="not-prose">
           <OutroSong trackId="0myRViRgmQ3J8izICXEAVO" startAtSeconds={0} />
         </div>
