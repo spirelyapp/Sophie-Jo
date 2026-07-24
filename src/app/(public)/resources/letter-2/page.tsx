@@ -1,4 +1,5 @@
 import MdxLayout from "@/components/mdx-layout";
+import OutroSong from "@/components/outro-song";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -52,6 +53,11 @@ export default function Letter2Page() {
         <p>
           Noah {"<3"}
         </p>
+
+        <h4>OUTRO SONG</h4>
+        <div className="not-prose">
+          <OutroSong trackId="65F5uV1eajI2OTm5KfCicq" startAtSeconds={0} />
+        </div>
       </div>
     </MdxLayout>
   );
