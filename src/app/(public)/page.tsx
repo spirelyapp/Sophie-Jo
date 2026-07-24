@@ -8,7 +8,8 @@ export default async function HomePage() {
         <h1>SOPHIE JO<span className="animate-caret-blink">,</span></h1>
 
         <p>
-          Nvm, sorry to all the fans out there. Sophie Jo hates me now. Cold
+          Nvm, sorry to all the fans out there. Sophie Jo hates me now, not
+          precisely sure why (prolly my fault) but it&apos;s all good. Cold
           world. Stay humble, stack money, and God bless!
         </p>
 
